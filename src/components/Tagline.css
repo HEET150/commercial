@@ -1,0 +1,33 @@
+/* src/components/Tagline.css */
+/* src/fonts.css */
+
+/* Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* Poppins font */
+
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+.tagline {
+    text-align: center;
+    font-family: 'Playfair Display', serif;    font-size: 24px;
+    color: #333;
+    margin: 20px 0;
+  }
+  /* Tagline.css */
+
+  
+ .gallery-heading {
+    color: #333; /* Adjust the color to your preference */
+    font-size: 45px; /* Adjust the font size as needed */
+    margin-top: 50px; /* Adjust the top margin as needed */
+    font-family: 'Libre Baskerville', serif;  
+  }
+  .separator {
+    width: 50%; /* Adjust the width of the separator as needed */
+    margin: 20px auto; /* Adjust margin as needed */
+    border: 1px solid #ccc; /* Adjust the color of the separator as needed */
+  }

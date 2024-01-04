@@ -1,0 +1,30 @@
+/* Footer.css */
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-top: 1px solid #ddd;
+  text-align: left;
+}
+
+.footer-column {
+  flex: 1;
+  margin-right: 20px; /* Add some space between columns */
+}
+
+.footer-column h2 {
+  color: #333;
+  margin-bottom: 10px; /* Add margin below headings for separation */
+}
+
+.footer-column p {
+  margin: 8px 0;
+}
+
+.footer-column p:first-child {
+  font-weight: bold; /* Make the first paragraph in each column bold */
+  margin-top: 0; /* Remove top margin for the first paragraph */
+}

@@ -1,0 +1,24 @@
+/* Gallery.css */
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    max-width: 95%; /* Set the maximum width to cover 95% of the desktop */
+  margin: 0 auto; /* Center the gallery on the page */
+  }
+  
+  .gallery-item {
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 16px; /* Adjust the margin for top, right, bottom, and left */
+  }
+  
+  .gallery-item img {
+    width: calc(100% - 32px); 
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
